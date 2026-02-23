@@ -6,7 +6,7 @@ if (randomNum === 0 )                                // Set flip to Heads or Tai
     coinFlip = 'Tails';                             // Setting and end to the if statement
 let userGuess= prompt(`Select Heads or Tails`)                 
 if (userGuess != 'Heads' && userGuess != 'Tails'){
-        document.write('User did not select Heads or Tails')
+        window.alert('User did not select Heads or Tails')
 } else {
     if (coinFlip == 'Heads' && userGuess == coinFlip){
         document.write('The flip was Heads and you chose Heads...you win!')
