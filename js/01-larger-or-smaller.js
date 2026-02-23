@@ -7,11 +7,11 @@ if(isNaN(numStr1) || isNaN(numStr2)){                               // Validate 
     window.alert('You did not enter a number on 1st or 2nd prompt') // If any input is not a number show error message
 }
 if(num1 > num2) {                                                   // Show if number 1 is greater
-    window.alert(`${num1} is greatest`)                               
+    document.write(`${num1} is greatest`)                               
 } 
 if(num2 > num1) {                                                   // Show if number 2 is greater
-    window.alert(`${num2} is greatest`)    
+    document.write(`${num2} is greatest`)    
 }
-if(num1 == num2) {                                                  // Show if numbers are the same 
-    window.alert(`Both numbers are ${num1} and are the same`)       
+if(num1 === num2) {                                                  // Show if numbers are the same 
+    document.write(`Both numbers are ${num1} and are the same`)       
 } 
