@@ -1,5 +1,5 @@
 //COMP690 Grade Assigner
-let numStr1 = prompt('Provide a number between 1 and 100')  // Request number from the user
+let numStr1 = prompt('Provide a number between 1 and 100')  // Request number from the user between 1 and 100
 num1 = Number(numStr1)                                      // Convert string to number
 if(isNaN(numStr1)){                                         // Validate if input is a number
     window.alert('You did not enter a number')              
